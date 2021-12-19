@@ -35,6 +35,7 @@ namespace Sem_3_Course_Work_C_Sharp
     {
         static async Task Main (string[] args)
         {
+            //Комментарий для тестировния
             StreamWriter FileWriter = new StreamWriter("TestBook.ibr", true);
             
             Chapter chapter_begin = new Chapter(){ChapterId = 0, ChapterText = "Chapter 0 Text", ChapterVariants = new Dictionary<string, int>(10){{ "Begining: leads to chapter 1" , 1}, { "Begining: leads to chapter 2", 2 }, { "Begining: leads to chapter 3", 3 } }};
